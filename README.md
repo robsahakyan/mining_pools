@@ -10,6 +10,7 @@ Mining Pools Dashboard is a web application that provides real-time monitoring a
      ├── mining_pools_api/              # Backend API (NestJS + MongoDB)
      ├── mining_pools_frontend/         # Frontend (Next.js + Material-UI)
      ├── docker-compose.yml             # Docker configuration
+     ├── DOCKER_README.md               # Docker setup guide
      ├── README.md                      # This file
 
 ---
@@ -35,11 +36,25 @@ Mining Pools Dashboard is a web application that provides real-time monitoring a
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### 🐳 Docker Setup (Recommended)
+For the fastest setup, use Docker Compose:
+
+```bash
+# Clone and start with Docker
+git clone <repository-url>
+cd mining_pools
+docker compose up -d
+```
+
+**📖 For complete Docker instructions, see [DOCKER_README.md](./DOCKER_README.md)**
+
+### 🛠️ Manual Setup
+
+#### Prerequisites
 - **Node.js** (v14+) - [Download here](https://nodejs.org/)
 - **MongoDB** - [Download here](https://www.mongodb.com/try/download/community)
 
-### Installation
+#### Installation
 
 1. **Clone the repository:**
    ```bash
